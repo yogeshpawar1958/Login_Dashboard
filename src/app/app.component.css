@@ -1,0 +1,50 @@
+.container{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(110deg, white 46%, #14209a 45%);
+}
+.first-card{
+    width: 15rem;
+    /* background-color: red; */
+}
+.main-div{
+   padding: 5px;
+    width: 80%;
+   min-height: 400px;
+}
+.inner-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+
+
+input.ng-touched.ng-invalid{
+    border:2px solid red
+}
+.nav-link,.form-check-label{
+    font-size: 12px;
+    padding: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    /* .main-div{
+        min-height: 700px;
+    } */
+    .nav-link,.form-check-label{
+        font-size: 16px;
+        padding: 3%;
+    }
+    
+  }
+
+ 
